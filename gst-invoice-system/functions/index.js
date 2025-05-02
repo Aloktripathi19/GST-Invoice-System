@@ -1,7 +1,7 @@
 let functions = require("firebase-functions");
 let admin = require("firebase-admin");
 
-admin.initializeApp();
+admin.initializeApp()
 
 exports.handleBooking = functions.firestore
   .document("bookings/{id}")
